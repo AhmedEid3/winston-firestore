@@ -1,0 +1,51 @@
+{
+  "name": "@winston-transports/firestore",
+  "version": "1.0.0",
+  "description": "transport for [winston logger]",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedEid3/winston-firestore.git"
+  },
+  "keywords": [
+    "@winston-transports/firestore",
+    "winston",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "bunyan",
+    "pino",
+    "loglevel",
+    "tools",
+    "jsonstream",
+    "firestore",
+    "winston-firestore"
+  ],
+  "author": "Ahmed Eid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AhmedEid3/winston-firestore/issues"
+  },
+  "homepage": "https://github.com/AhmedEid3/winston-firestore#readme",
+  "devDependencies": {
+    "@types/winston": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "winston-transport": "^4.5.0"
+  }
+}
