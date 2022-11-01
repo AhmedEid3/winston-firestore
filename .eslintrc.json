@@ -5,15 +5,13 @@
     },
     "plugins": [
 		"@typescript-eslint",
-		"prettier",
 		"json"
 	],
-    "extends": ["standard-with-typescript",
-    "plugin:jest/recommended",
+    "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"],
+    "prettier"
+    ],
     "overrides": [
     ],
     "parserOptions": {
