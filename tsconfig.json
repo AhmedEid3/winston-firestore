@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
       "declaration": true,
-      "declarationMap": false,
-      "sourceMap": false,
+      "declarationMap": true,
+      "sourceMap": true,
       "resolveJsonModule": true,
       "module": "commonjs",
       "lib": [
