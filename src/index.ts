@@ -1,7 +1,8 @@
+import { Firestore } from '@google-cloud/firestore';
 import Transport from 'winston-transport';
 
 interface WinstonFirestoreOptions extends Transport.TransportStreamOptions {
-  db: any;
+  db: Firestore;
   collectionPath: string;
 }
 
@@ -34,9 +35,9 @@ export class WinstonFirestore extends Transport {
     }
   }
 
-  async log(info: any, callback: () => void) {
+  async log(info: any, next: () => void) {
     await this.options.db.collection(this.options.collectionPath).add(info);
 
-    callback?.();
+    next?.();
   }
 }
