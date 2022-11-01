@@ -6,7 +6,7 @@ interface WinstonFirestoreOptions extends Transport.TransportStreamOptions {
   collectionPath: string;
 }
 
-export class WinstonFirestore extends Transport {
+export default class WinstonFirestore extends Transport {
   constructor(public options: WinstonFirestoreOptions) {
     super(options);
 
