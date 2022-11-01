@@ -1,4 +1,4 @@
-import Transport from "winston-transport";
+import Transport from 'winston-transport';
 
 interface WinstonFirestoreOptions extends Transport.TransportStreamOptions {
   db: any;
@@ -24,12 +24,12 @@ export class WinstonFirestore extends Transport {
       throw new Error("Missing required 'collectionPath' in options");
     }
 
-    const isValidPath = this.options.collectionPath.split("/").length % 2 !== 0;
+    const isValidPath = this.options.collectionPath.split('/').length % 2 !== 0;
     if (!isValidPath) {
       throw new Error(
         `Value for argument "collectionPath" must point to a collection,
              but was "${this.options.collectionPath}". 
-             Your path does not contain an odd number of components.`
+             Your path does not contain an odd number of components.`,
       );
     }
   }
