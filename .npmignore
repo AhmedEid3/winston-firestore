@@ -4,3 +4,16 @@ tsconfig.json
 .eslintrc.json
 .prettierrc
 .prettierignore
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.env
+
+# Coverage
+coverage
+
+# JetBrains IDEs
+.idea/
