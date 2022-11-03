@@ -10,7 +10,7 @@
 ## Usage
 ``` js
 import { getFirestore } from 'firebase-admin/firestore';
-import { WinstonFirestore } from '@winston-transports/firestore';
+import WinstonFirestore from '@winston-transports/firestore';
 import winston, { format } from 'winston';
 
 .....
@@ -32,7 +32,7 @@ const logger = winston.createLogger({
 	]
 });
 
-logger.error('Hello World', {
+logger.info('Hello World', {
 	meta1: 1,
 	meta2: 'string',
 	meta3: {deepObj: 1}
