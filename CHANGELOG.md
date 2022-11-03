@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## v1.0.4 / 2022-11-01
+
+### Patch-level changes
+
+* Fix Export WinstonFirestore module.
+
+* ``` js
+  import { WinstonFirestore } from '@winston-transports/firestore';
+  ```
+
+
 ## v1.0.3 / 2022-11-01
 
 ### Patch-level changes
