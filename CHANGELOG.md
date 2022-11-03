@@ -1,6 +1,12 @@
 # CHANGELOG
 
-## v1.0.4 / 2022-11-01
+## v1.0.5 / 2022-11-03
+
+### Patch-level changes
+* Update instruction of package.
+* Optimize package size.
+
+## v1.0.4 / 2022-11-03
 
 ### Patch-level changes
 
@@ -11,7 +17,7 @@
   ```
 
 
-## v1.0.3 / 2022-11-01
+## v1.0.3 / 2022-11-03
 
 ### Patch-level changes
 
