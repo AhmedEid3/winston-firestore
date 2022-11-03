@@ -10,7 +10,7 @@
 ## Usage
 ``` js
 import { getFirestore } from 'firebase-admin/firestore';
-import WinstonFirestore from '@winston-transports/firestore';
+import { WinstonFirestore } from '@winston-transports/firestore';
 import winston, { format } from 'winston';
 
 .....
