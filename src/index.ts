@@ -1,8 +1,7 @@
-import { Firestore } from '@google-cloud/firestore';
 import Transport from 'winston-transport';
 
 interface WinstonFirestoreOptions extends Transport.TransportStreamOptions {
-  db: Firestore;
+  db: any;
   collectionPath: string;
 }
 

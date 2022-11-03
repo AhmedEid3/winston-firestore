@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/AhmedEid3/winston-firestore#readme",
   "devDependencies": {
-    "@types/winston": "^2.4.4",
+    "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
@@ -51,7 +51,6 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@google-cloud/firestore": "^6.4.1",
     "winston-transport": "^4.5.0"
   }
 }
