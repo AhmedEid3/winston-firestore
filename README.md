@@ -43,4 +43,20 @@ logger.info('Hello World', {
 ## Typescript Support
 @winston-transports/firestore comes with its' own type definitions, so you wont have to use [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 
+
+## Dealing with TypeScript issues
+You may encounter TypeScript errors when including the transformer, which can be fixed by modifying the TypeScript config.
+
+For a ``` 'TransportStream' ``` error:
+``` js 
+Argument of type 'LogtailTransport' is not assignable to parameter of type 'TransportStream'.
+Type 'LogtailTransport' is missing the following properties from type 'TransportStream': writable, writableEnded, writableFinished, writableHighWaterMark, and 29 more. 
+```
+
+Modify ``` tsconfig.json ``` with:
+``` js 
+"moduleResolution": "node",
+"esModuleInterop": true 
+```
+
 ### Author: [Ahmed Eid](https://github.com/AhmedEid3)
