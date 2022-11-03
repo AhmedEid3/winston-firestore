@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v1.0.7 / 2022-11-03
+
+### Patch-level changes
+* Remove @google-cloud/firestore dependency
+
+
+## v1.0.6 / 2022-11-03
+
+### Patch-level changes
+* Dealing with TypeScript issues
+
+
 ## v1.0.5 / 2022-11-03
 
 ### Patch-level changes
