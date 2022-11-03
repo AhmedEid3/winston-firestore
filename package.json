@@ -9,7 +9,10 @@
     "format": "prettier --write src/**/*.ts",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint src/**/*.ts --fix",
-    "lint:prettier": "prettier --config .prettierrc --write src/**/*.ts"
+    "lint:prettier": "prettier --config .prettierrc --write src/**/*.ts",
+    "publish:patch": "git pull && npm run build && node version patch &&npm publish && git push",
+    "publish:minor": "git pull && npm run build && node version minor &&npm publish && git push",
+    "publish:major": "git pull && npm run build && node version major &&npm publish && git push"
   },
   "repository": {
     "type": "git",
